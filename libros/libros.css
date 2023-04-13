@@ -1,0 +1,42 @@
+img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 70px;
+  margin-left: 35px;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 70px;
+  margin-left: 35px;
+}
+h3 {
+  background-color: #006bc8;
+  padding: 15px;
+  font-family: "Indie Flower", cursive;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+h3:hover {
+  opacity: 0.5;
+  background-color: #006bc8;
+  transition: 2s;
+  cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+h2 {
+  font-family: "Indie Flower", cursive;
+  padding: 30px;
+}

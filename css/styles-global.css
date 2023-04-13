@@ -1,0 +1,114 @@
+body {
+  background-color: #ecebec;
+  font-family: "Indie Flower", cursive;
+}
+nav {
+  background-color: #2c3357;
+  border-radius: 20px;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.logo {
+  margin: 0px;
+  width: 150px;
+  height: 60px;
+}
+
+.nav__li {
+  color: rgb(241, 233, 233);
+  list-style: none;
+  padding: 5px;
+}
+.nav__li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+
+  padding: 10px;
+  border-radius: 20px;
+}
+.nav__li a:hover {
+  opacity: 0.5;
+  background-color: #006bc8;
+  transition: 3s;
+}
+.logo{
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.footercontainer {
+  margin-top: 50px;
+}
+.consulta {
+  text-align: start;
+  font-size: 17px;
+  color: #ecebec;
+}
+
+.form {
+  display: flex;
+  height: 400px;
+  background-color: #2c3357;
+  border-radius: 15px;
+}
+.containerinput {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form_input {
+  text-align: start;
+  width: 70%;
+  padding: 7px;
+  margin: 6px 0;
+  border-color: white;
+  border-bottom: 3px solid #5499d6;
+  margin-left: 40px;
+}
+.form_input:focus {
+  border-bottom: 3px solid #006bc8;
+  outline: none;
+}
+.form textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+.form input[type="submit"] {
+  text-align: center;
+  background-color: white;
+  border-bottom: none;
+  padding: 12px;
+}
+.form input[type="submit"]:hover {
+  background-color: #006bc8;
+  border-bottom: none;
+  padding: 12px;
+}
+
+.containericon {
+  width: 50%;
+  margin-left: 50px;
+}
+.text-red {
+  color: #ecebec;
+}
+i {
+  color: #ecebec;
+  width: 45px;
+  font-size: x-large;
+}
